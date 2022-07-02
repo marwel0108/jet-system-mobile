@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    tools:context=".RegistroFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="-300dp"
+        android:layout_marginLeft="20dp"
+        android:height="50dp"
+        android:text="@string/seleccionar"
+        android:textColor="#0275d8"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="-220dp"
+        android:layout_marginLeft="50dp"
+        android:height="50dp"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:text="Programación Móvil"
+        />
+
+    <Button
+        android:id="@+id/btnAlta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="200dp"
+        android:width="120dp"
+        android:height="50dp"
+        android:backgroundTint="#0275d8"
+        android:text="@string/alta"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnBaja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="200dp"
+        android:width="120dp"
+        android:height="50dp"
+        android:backgroundTint="#0275d8"
+        android:text="@string/baja"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="0dp"
+        android:height="50dp"
+        android:text="@string/creditos"
+        android:textColor="#0275d8"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/tvCreditos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="118dp"
+        android:layout_marginTop="60dp"
+        android:height="50dp"
+        android:text="9"
+        android:textColor="@color/black"
+        android:textSize="45dp" />
+</FrameLayout>

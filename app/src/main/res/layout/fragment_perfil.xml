@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/fondo2"
+    android:padding="10dp"
+    tools:context=".PerfilFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:height="80dp"
+                android:gravity="center"
+                android:text="@string/perfil"
+                android:textColor="#0077FF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tvnom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvper"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:height="80dp"
+                android:gravity="center"
+                android:text="Jorge Snefru Tovar Magaña"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tvgru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvnum"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:height="80dp"
+                android:gravity="center"
+                android:text="@string/grupo"
+                android:textColor="#0077FF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tvgroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvgru"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:height="80dp"
+                android:gravity="center"
+                android:text="8°B"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tvcar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvgroup"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:height="80dp"
+                android:gravity="center"
+                android:text="@string/carr"
+                android:textColor="#0077FF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tvcarrera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvcar"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:height="80dp"
+                android:gravity="center"
+                android:text="Ingenieria en Software"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tvmat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvcarrera"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:height="80dp"
+                android:gravity="center"
+                android:text="@string/materias"
+                android:textColor="#0077FF"
+                android:textSize="25dp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Programación para móviles"
+                        android:height="80dp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Compiladores e intérpretes"
+                        android:height="80dp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Inteligencia Artificial"
+                        android:height="80dp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

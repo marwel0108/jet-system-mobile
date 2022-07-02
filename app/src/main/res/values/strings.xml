@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">JET System</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">219030562</string>
+    <string name="nav_header_subtitle">219030562@uppenjamo.edu.mx</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="seleccionar">Selecciona la materia</string>
+    <string name="alta">Alta</string>
+    <string name="baja">Baja</string>
+    <string name="creditos">Créditos</string>
+    <string name="carrera">Ingeniería en Software</string>
+    <string name="ciclo1">Ciclo I</string>
+    <string name="ciclo2">Ciclo II</string>
+    <string name="ciclo3">Ciclo III</string>
+    <string name="segundo">Segundo Cuatrimestre</string>
+    <string name="quinto">Quinto Cuatrimestre</string>
+    <string name="perfil">PERFIL</string>
+    <string name="grado">GRADO</string>
+    <string name="grupo">GRUPO</string>
+    <string name="carr">CARRERA</string>
+    <string name="materias">MATERIAS</string>
+    <string name="octavo">Octavo Cuatrimestre</string>
+    <string name="noticia">La #UPPenjamo se hizo presente en la Expo Agroalimentaria Guanajuato 2021</string>
+
+
+    <string name="menu_inicio">Inicio</string>
+    <string name="menu_registro">Registro de Materias</string>
+    <string name="menu_perfil">Perfil</string>
+    <string name="menu_plan">Planes Academicos</string>
+    <string name="menu_grupos">Grupos</string>
+    <string name="menu_horarios">Horarios</string>
+    <string name="bienvenido">¡Bienvenido!</string>
+    <string name="ingresar">Por favor, ingresa tus datos para continuar</string>
+    <string name="ing_matricula">Ingresa tu matrícula</string>
+    <string name="password">Contraseña</string>
+    <string name="iniciar">Iniciar</string>
+</resources>
